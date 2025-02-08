@@ -4,8 +4,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableMap
 from langchain_openai import ChatOpenAI
 import os
-
 from dotenv import load_dotenv  
+
 
 load_dotenv()
 
