@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 8501
 
 # Command to run your application (adjust as necessary)
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "streamlit_app.py"]
