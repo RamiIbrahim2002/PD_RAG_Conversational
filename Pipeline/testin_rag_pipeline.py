@@ -6,10 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableMap
 from langchain_openai import ChatOpenAI
-
 from dotenv import load_dotenv  
-
-load_dotenv()
 
 # Configure logging: set level to DEBUG for detailed output.
 logging.basicConfig(
@@ -17,6 +14,8 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
+load_dotenv()
 
 def load_rag_pipeline():
     logging.info("Loading embeddings and FAISS index...")
