@@ -4,3 +4,4 @@ langchain-core==0.3.34
 langchain-openai==0.3.4
 python-dotenv==1.0.1
 faiss-gpu==1.7.2
+python-3.9.16
