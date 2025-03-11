@@ -1,9 +1,0 @@
-{
-    "build": {
-      "builder": "docker"
-    },
-    "deploy": {
-      "startCommand": ""
-    }
-  }
-  
